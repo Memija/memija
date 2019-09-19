@@ -1,0 +1,54 @@
+@import '../../../colors/colors.less';
+
+.github {
+  padding-bottom: 50px;
+  padding-top: 15px;
+
+  a {
+    color: @black;
+
+    &:hover {
+      color: @outer-space;
+      font-size: 17px;
+      text-decoration: none;
+    }
+  }
+
+  div {
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  input {
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 22px;
+    padding-left: 5px;
+    padding-top: 3px;
+    width: 300px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  span {
+    padding-left: 20px;
+  }
+
+  .search {
+    background-color: @blue-stone;
+    height: 75px;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 302px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .github {
+    .search {
+      top: 237px;
+    }
+  }
+}

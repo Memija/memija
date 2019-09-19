@@ -1,0 +1,19 @@
+<div class='github'>
+  <div class='search'>
+    <input
+      placeholder='Search GitHub gists by description'
+      type='text'
+      #searchTerm (keyup)='searchTerm'/>
+  </div>
+  <div *ngFor='let gitHubGist of gitHubGists | gitHubGistDescriptionPipe: searchTerm.value'>
+    <a
+      href='{{gitHubGist.html_url}}'
+      target='_blank'>
+      <i
+        aria-hidden='true'
+        class='fa fa-external-link'>
+      </i>
+      {{ gitHubGist.description }}
+    </a>
+  </div>
+</div>

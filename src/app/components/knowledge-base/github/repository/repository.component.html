@@ -1,0 +1,35 @@
+<div class='github'>
+  <div class='search'>
+    <input
+      placeholder='Search GitHub repositories by name'
+      type='text'
+      #searchTerm (keyup)='searchTerm'/>
+  </div>
+  <div *ngFor='let gitHubRepository of gitHubRepositories | gitHubRepositoryNamePipe: searchTerm.value'>
+    <a
+      href='{{gitHubRepository.html_url}}'
+      target='_blank'>
+      <i
+        aria-hidden='true'
+        class='fa fa-external-link'>
+      </i>
+      {{ gitHubRepository.name }}
+    </a>
+    <br />
+    <span>
+      <i
+        aria-hidden='true'
+        class='fa fa-book'>
+      </i>
+      {{ gitHubRepository.description ? gitHubRepository.description : noDescriptionAvailablePlaceholder }}
+    </span>
+    <br />
+    <span>
+      <i
+        aria-hidden='true'
+        class='fa fa-language'>
+      </i>
+      {{ gitHubRepository.language }}
+    </span>
+  </div>
+</div>

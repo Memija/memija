@@ -1,0 +1,41 @@
+@import '../../../colors/colors.less';
+
+header {
+  background-color: @white;
+  font-size: 25px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+
+  .name,
+  .slogan {
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+
+  .slogan {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+        display: none;
+    }
+
+    .name,
+    .slogan {
+        padding: 5px;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 15px;
+    }
+  }
+}

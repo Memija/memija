@@ -1,0 +1,93 @@
+@import '../colors/colors.less';
+@import '../fonts/fonts.less';
+
+body {
+  background-attachment: fixed;
+  background-color: @white;
+  background-image: url('../../assets/images/backgrounds/background.jpg');
+  background-size: cover;
+  font-family: @main, cursive;
+}
+
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.loading {
+  &-graphic {
+    animation-name: spin;
+    -moz-animation-name: spin;
+    -o-animation-name: spin;
+    -webkit-animation-name: spin;
+    animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    border-top: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+    border-top-color: var(--white-color);
+    border-right-color: var(--deep-teal-color);
+    border-bottom-color:var(--deep-teal-color);
+    border-left-color: var(--deep-teal-color);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    height: 50px;
+    width: 50px;
+  }
+
+  &-screen {
+    color: var(--white-color);
+    left: 50%;
+    position: fixed;
+    top: 50%;
+  }
+
+  &-text {
+    font-size: 15px;
+    margin-left: -20px;
+  }
+
+  &-title {
+    font-size: 25px;
+    margin-left: -60px;
+  }
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loading-screen {
+    left: 42%;
+  }
+}
