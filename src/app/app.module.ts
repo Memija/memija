@@ -19,6 +19,7 @@ import * as components from './components';
     components.NavigationComponent,
     components.ProfileComponent,
     components.RepositoryComponent,
+    components.ResumeDownloadComponent,
     pipes.GitHubGistDescriptionPipe,
     pipes.GitHubRepositoryNamePipe,
   ],

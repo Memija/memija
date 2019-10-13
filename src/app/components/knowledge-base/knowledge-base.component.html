@@ -11,7 +11,7 @@
           [ngClass]="{'btn-secondary': shouldGistsBeShown, 'btn-dark': shouldRepositoriesBeShown}"
           (click)='showRepositories()'>
           <span>
-          Repositories
+          {{ repositories }}
           </span>
         </button>
         <button
@@ -20,7 +20,7 @@
           [ngClass]="{'btn-secondary': shouldRepositoriesBeShown, 'btn-dark': shouldGistsBeShown}"
           (click)='showGists()'>
           <span>
-            Gists
+            {{ gists }}
           </span>
         </button>
       </div>

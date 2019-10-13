@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { configuration } from 'src/app/configuration/configuration';
+import { language } from 'src/app/localization/language';
 
 /**
  * Knowledge base component.
@@ -12,6 +13,16 @@ import { configuration } from 'src/app/configuration/configuration';
   ]
 })
 export class KnowledgeBaseComponent implements OnInit {
+  /**
+   * Gists.
+   */
+  public gists: string;
+
+  /**
+   * Repositories.
+   */
+  public repositories: string;
+
   /**
    * Title.
    */
@@ -30,6 +41,8 @@ export class KnowledgeBaseComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.gists = language.knowledgeBase.gists;
+    this.repositories = language.knowledgeBase.repositories;
     this.title = configuration.route.name.knowledgeBase;
     this.shouldGistsBeShown = false;
     this.shouldRepositoriesBeShown = true;

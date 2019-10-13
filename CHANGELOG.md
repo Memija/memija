@@ -3,3 +3,8 @@
 ## Version 1
 
 Initial version.
+
+## Version 2
+
+Resume has been added.
+Download component has been created.
