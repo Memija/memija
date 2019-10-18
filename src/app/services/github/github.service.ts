@@ -39,8 +39,8 @@ export class GitHubService {
    * @param httpClient Http (HyperText Transfer Protocol) client.
    */
   constructor(apiService: ApplicationProgrammingInterfaceService, errorHandlingService: ErrorHandlingService, httpClient: HttpClient) {
-    this.gitHubGistEndpoint = apiService.getGitHubGistEndpoint() as string;
-    this.gitHubRepositoryEndpoint = apiService.getGitHubRepositoryEndpoint() as string;
+    this.gitHubGistEndpoint = apiService.getGitHubGistEndpoint();
+    this.gitHubRepositoryEndpoint = apiService.getGitHubRepositoryEndpoint();
     this.errorHandlingService = errorHandlingService;
     this.httpClient = httpClient;
   }
