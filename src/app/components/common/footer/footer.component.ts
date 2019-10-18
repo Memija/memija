@@ -16,22 +16,22 @@ export class FooterComponent implements OnInit {
   /**
    * Contact email.
    */
-  public email: String;
+  public email: string;
 
   /**
    * Application name.
    */
-  public name: String;
+  public name: string;
 
   /**
    * Application version.
    */
-  public version: String;
+  public version: string;
 
   /**
    * Current year.
    */
-  public year: Number;
+  public year: number;
 
   constructor() { }
 

@@ -12,7 +12,7 @@ export class ApplicationProgrammingInterfaceService {
    * Get GitHub Gist API (Application Programming Interface) endpoint.
    * @returns GitHub Gist API (Application Programming Interface) endpoint.
    */
-  public getGitHubGistEndpoint(): String {
+  public getGitHubGistEndpoint(): string {
     return configuration.gitHub.apiEndpoint +
            configuration.gitHub.users +
            '/' +
@@ -25,7 +25,7 @@ export class ApplicationProgrammingInterfaceService {
   * Get GitHub Repository API (Application Programming Interface) endpoint.
   * @returns GitHub Repository API (Application Programming Interface) endpoint.
   */
-  public getGitHubRepositoryEndpoint(): String {
+  public getGitHubRepositoryEndpoint(): string {
     return configuration.gitHub.apiEndpoint +
            configuration.gitHub.users +
            '/' +
