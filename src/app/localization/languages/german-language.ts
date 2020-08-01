@@ -1,4 +1,4 @@
-export const englishLanguage = {
+export const germanLanguage = {
   knowledgeBase: {
     gists: 'Gists',
     repositories: 'Repositories',

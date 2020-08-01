@@ -16,15 +16,23 @@ export const configuration = {
   linkedIn: {
     profile: 'https://www.linkedin.com/in/anelmemic/'
   },
+  projects: {
+    memijaTypography: {
+      title: 'Memija Typography',
+      url: 'https://memija-typography.herokuapp.com/'
+    }
+  },
   route: {
     name: {
       home: 'Home',
-      knowledgeBase: 'Knowledge base'
+      knowledgeBase: 'Knowledge base',
+      projects: 'Projects'
     },
     value: {
       home: '',
-      knowledgeBase: 'knowledge-base'
+      knowledgeBase: 'knowledge-base',
+      projects: 'projects'
     }
   },
-  version: '2.0.0'
+  version: '3.0.0'
 };

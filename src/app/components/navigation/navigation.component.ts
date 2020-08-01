@@ -28,9 +28,19 @@ export class NavigationComponent implements OnInit {
   public knowledgeBaseRouteName: string;
 
   /**
-   * Knowledge base route name.
+   * Knowledge base route value.
    */
   public knowledgeBaseRouteValue: string;
+
+  /**
+   * Projects route name.
+   */
+  public projectsRouteName: string;
+
+  /**
+   * Projects route value.
+   */
+  public projectsRouteValue: string;
 
   constructor() { }
 
@@ -39,5 +49,7 @@ export class NavigationComponent implements OnInit {
     this.homeRouteValue = configuration.route.value.home;
     this.knowledgeBaseRouteName = configuration.route.name.knowledgeBase;
     this.knowledgeBaseRouteValue = configuration.route.value.knowledgeBase;
+    this.projectsRouteName = configuration.route.name.projects;
+    this.projectsRouteValue = configuration.route.value.projects;
   }
 }

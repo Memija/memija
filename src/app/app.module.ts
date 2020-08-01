@@ -18,6 +18,7 @@ import * as components from './components';
     components.KnowledgeBaseComponent,
     components.NavigationComponent,
     components.ProfileComponent,
+    components.ProjectsComponent,
     components.RepositoryComponent,
     components.ResumeDownloadComponent,
     pipes.GitHubGistDescriptionPipe,
