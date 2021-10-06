@@ -31,12 +31,12 @@ export class GistComponent implements OnInit {
   constructor(private gitHubService: GitHubService) { }
 
   ngOnInit(): void {
-    this.gitHubService.getGitHubGists().subscribe(
-      data => {
+    this.gitHubService.getGitHubGists().subscribe({
+      next: (data) => {
         this.gitHubGists = data;
-      }, error => {
+      }, error: (error) => {
         this.errorMessage = error.message;
-      });
+      }});
     this.searchTerm = '';
   }
 }

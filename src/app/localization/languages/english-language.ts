@@ -5,7 +5,7 @@ export const englishLanguage = {
   },
   notFoundMessage: 'I do wonder where this path leads',
   profile: {
-    introduction: 'I am a curious developer, always on a lookout for opportunities in order to broaden my horizons. I love creating user-friendly and interesting solutions that solve problems and better everyday living.',
+    introduction: 'I am a curious software engineer that loves creating user-friendly and interesting solutions that solve problems and better everyday living.',
     summary: 'Making my loved ones happy. Enjoying the small things. Being optimistic about the future.'
   },
   resume: {

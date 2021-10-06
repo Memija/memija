@@ -1,16 +1,12 @@
 @import '../../colors/colors.less';
 
-.github-navigation,
-.title {
-  position: sticky;
-  z-index: 1;
-  width: 100%;
-}
-
-.github-navigation  {
+.github-navigation {
   background-color: @white;
   padding-top: 15px;
-  top: 234px;
+  position: sticky;
+  top: 210px;
+  z-index: 1;
+  width: 100%;
 
   .btn-group {
     margin-left: 15px;
@@ -19,20 +15,8 @@
   }
 }
 
-.title {
-  background-color: @blue-stone;
-  color: @white;
-  padding-left: 20px;
-  top: 210px;
-}
-
 @media screen and (max-width: 768px) {
   .github-navigation {
-    top: 168px;
-  }
-
-  .title {
-    margin-top: -1px;
-    top: 144px;
+    top: 145px;
   }
 }

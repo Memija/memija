@@ -36,13 +36,13 @@ export class RepositoryComponent implements OnInit {
   constructor(private gitHubService: GitHubService) { }
 
   ngOnInit(): void {
-    this.gitHubService.getGitHubRepositories().subscribe(
-      data => {
+    this.gitHubService.getGitHubRepositories().subscribe({
+      next: (data) => {
         this.gitHubRepositories = data;
-      }, error => {
+      }, error: (error) => {
         this.errorMessage = error.message;
-      });
-    this.noDescriptionAvailablePlaceholder = 'No description available.';
+      }});
+    this.noDescriptionAvailablePlaceholder = 'Description is not available.';
     this.searchTerm = '';
   }
 }

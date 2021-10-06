@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { configuration } from 'src/app/configuration/configuration';
 import { language } from 'src/app/localization/language';
 
 /**
@@ -24,11 +23,6 @@ export class KnowledgeBaseComponent implements OnInit {
   public repositories: string;
 
   /**
-   * Title.
-   */
-  public title: string;
-
-  /**
    * Declares should GitHub gists be shown or not.
    */
   public shouldGistsBeShown: boolean;
@@ -43,7 +37,6 @@ export class KnowledgeBaseComponent implements OnInit {
   ngOnInit(): void {
     this.gists = language.knowledgeBase.gists;
     this.repositories = language.knowledgeBase.repositories;
-    this.title = configuration.route.name.knowledgeBase;
     this.shouldGistsBeShown = false;
     this.shouldRepositoriesBeShown = true;
   }

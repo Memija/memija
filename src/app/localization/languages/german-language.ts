@@ -3,15 +3,15 @@ export const germanLanguage = {
     gists: 'Gists',
     repositories: 'Repositories',
   },
-  notFoundMessage: 'I do wonder where this path leads',
+  notFoundMessage: 'Ich frage mich, wohin dieser Weg führt',
   profile: {
-    introduction: 'I am a curious developer, always on a lookout for opportunities in order to broaden my horizons. I love creating user-friendly and interesting solutions that solve problems and better everyday living.',
-    summary: 'Making my loved ones happy. Enjoying the small things. Being optimistic about the future.'
+    introduction: 'Ich bin ein neugieriger Softwareentwickler, der es liebt, benutzerfreundliche und interessante Lösungen zu entwickeln, die Probleme lösen und das tägliche Leben verbessern.',
+    summary: 'Meine Liebsten glücklich machen. Mich an den kleinen Dingen erfreuen. Optimistisch in die Zukunft blicken.'
   },
   resume: {
     download: {
-      fileName: 'Resume',
-      title: 'Download Resume'
+      fileName: 'Lebenslauf',
+      title: 'Lebenslauf herunterladen'
     }
   }
 };

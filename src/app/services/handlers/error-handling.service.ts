@@ -21,6 +21,6 @@ export class ErrorHandlingService {
       console.table([error.status, error.statusText, error.message], ['Status', 'Status text', 'Message']);
     }
 
-    return throwError(new Error('An error has occurred. We apologize for the inconvenience. Please try again later.'));
+    return throwError(() => new Error('An error has occurred. We apologize for the inconvenience. Please try again later.'));
   }
 }
