@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { language } from 'src/app/localization/language';
 import { GitHubRepository } from 'src/app/models/github';
 import { GitHubService } from 'src/app/services/github/github.service';
 
@@ -29,6 +30,11 @@ export class RepositoryComponent implements OnInit {
   public noDescriptionAvailablePlaceholder: string;
 
   /**
+   * Search placeholder.
+   */
+   public searchPlaceholder: string;
+
+  /**
    * Search term.
    */
   public searchTerm: string;
@@ -36,13 +42,15 @@ export class RepositoryComponent implements OnInit {
   constructor(private gitHubService: GitHubService) { }
 
   ngOnInit(): void {
+
     this.gitHubService.getGitHubRepositories().subscribe({
       next: (data) => {
         this.gitHubRepositories = data;
       }, error: (error) => {
         this.errorMessage = error.message;
-      }});
-    this.noDescriptionAvailablePlaceholder = 'Description is not available.';
+    }});
+    this.noDescriptionAvailablePlaceholder = language.knowledgeBase.noDescriptionAvailablePlaceholder;
+    this.searchPlaceholder = language.knowledgeBase.searchPlaceholder.repositories;
     this.searchTerm = '';
   }
 }

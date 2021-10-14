@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { configuration } from 'src/app/configuration/configuration';
+import { language } from 'src/app/localization/language';
 
 /**
  * Navigation component.
@@ -45,11 +46,11 @@ export class NavigationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.homeRouteName = configuration.route.name.home;
+    this.homeRouteName = language.route.name.home;
     this.homeRouteValue = configuration.route.value.home;
-    this.knowledgeBaseRouteName = configuration.route.name.knowledgeBase;
+    this.knowledgeBaseRouteName = language.route.name.knowledgeBase;
     this.knowledgeBaseRouteValue = configuration.route.value.knowledgeBase;
-    this.projectsRouteName = configuration.route.name.projects;
+    this.projectsRouteName = language.route.name.projects;
     this.projectsRouteValue = configuration.route.value.projects;
   }
 }

@@ -1,7 +1,8 @@
+import { LanguageUtility } from '../localization/languages/language.utility';
+
 export const configuration = {
   brand: {
-    name: 'Memija',
-    slogan: 'Growing together'
+    name: 'The coding dad'
   },
   contact: {
     email: 'anelmemija@gmail.com'
@@ -13,6 +14,12 @@ export const configuration = {
       users: 'users',
       username: 'memija'
   },
+  language: {
+    activeLanguage: LanguageUtility.getActiveLanguageValue(),
+    isEnglishLanguageSelected: LanguageUtility.isEnglishLanguageSelected(),
+    isGermanLanguageSelected: LanguageUtility.isGermanLanguageSelected(),
+    localStorageMarker: 'language'
+  },
   linkedIn: {
     profile: 'https://www.linkedin.com/in/anelmemic/'
   },
@@ -23,16 +30,11 @@ export const configuration = {
     }
   },
   route: {
-    name: {
-      home: 'Home',
-      knowledgeBase: 'Knowledge base',
-      projects: 'Projects'
-    },
     value: {
       home: '',
       knowledgeBase: 'knowledge-base',
       projects: 'projects'
     }
   },
-  version: '1.0.2'
+  version: '1.1.0'
 };

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { language } from 'src/app/localization/language';
 import { GitHubGist } from 'src/app/models/github';
 import { GitHubService } from 'src/app/services/github/github.service';
 
@@ -24,6 +25,11 @@ export class GistComponent implements OnInit {
   public gitHubGists: GitHubGist[] | Error;
 
   /**
+   * Search placeholder.
+   */
+   public searchPlaceholder: string;
+
+  /**
    * Search term.
    */
   public searchTerm: string;
@@ -31,12 +37,14 @@ export class GistComponent implements OnInit {
   constructor(private gitHubService: GitHubService) { }
 
   ngOnInit(): void {
+
     this.gitHubService.getGitHubGists().subscribe({
       next: (data) => {
         this.gitHubGists = data;
       }, error: (error) => {
         this.errorMessage = error.message;
-      }});
+    }});
+    this.searchPlaceholder = language.knowledgeBase.searchPlaceholder.gists;
     this.searchTerm = '';
   }
 }

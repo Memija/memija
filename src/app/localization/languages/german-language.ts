@@ -1,7 +1,12 @@
 export const germanLanguage = {
   knowledgeBase: {
     gists: 'Gists',
+    noDescriptionAvailablePlaceholder: 'Die Beschreibung ist nicht verfügbar.',
     repositories: 'Repositories',
+    searchPlaceholder: {
+      gists: 'GitHub-Gists nach Beschreibung durchsuchen',
+      repositories: 'GitHub-Repositories nach Namen durchsuchen'
+    }
   },
   notFoundMessage: 'Ich frage mich, wohin dieser Weg führt',
   profile: {
@@ -13,5 +18,13 @@ export const germanLanguage = {
       fileName: 'Lebenslauf',
       title: 'Lebenslauf herunterladen'
     }
-  }
+  },
+  route: {
+    name: {
+      home: 'Startseite',
+      knowledgeBase: 'Wissensdatenbank',
+      projects: 'Projekte'
+    }
+  },
+  slogan: 'Zusammenwachsen'
 };

@@ -1,4 +1,6 @@
-import { englishLanguage as el} from './languages/english-language';
-import { germanLanguage as de} from './languages/german-language';
+import { configuration } from '../configuration/configuration';
+import { languages } from './languages/languages';
+import { englishLanguage } from './languages/english-language';
+import { germanLanguage } from './languages/german-language';
 
-export const language = el;
+export const language = configuration.language.activeLanguage === languages.german ? germanLanguage : englishLanguage;

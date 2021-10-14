@@ -1,7 +1,12 @@
 export const englishLanguage = {
   knowledgeBase: {
     gists: 'Gists',
+    noDescriptionAvailablePlaceholder: 'Description is not available.',
     repositories: 'Repositories',
+    searchPlaceholder: {
+      gists: 'Search GitHub gists by description',
+      repositories: 'Search GitHub repositories by name'
+    }
   },
   notFoundMessage: 'I do wonder where this path leads',
   profile: {
@@ -13,5 +18,13 @@ export const englishLanguage = {
       fileName: 'Resume',
       title: 'Download Resume'
     }
-  }
+  },
+  route: {
+    name: {
+      home: 'Home',
+      knowledgeBase: 'Knowledge base',
+      projects: 'Projects'
+    }
+  },
+  slogan: 'Growing together'
 };
