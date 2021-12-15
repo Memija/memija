@@ -56,7 +56,7 @@
     "ng": "ng",
     "local": "ng serve",
     "lint": "ng lint",
-    "build": "ng build --aot --prod",
+    "build": "ng build --aot --configuration production",
     "start": "node server.js"
   },
   "version": "1.0.0"
