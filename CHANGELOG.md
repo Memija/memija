@@ -12,3 +12,7 @@ Development dependencies have been updated.
 ## Version 1.1.0
 
 Support for German language has been added.
+
+## Version 1.2.0
+
+Resume has been added.

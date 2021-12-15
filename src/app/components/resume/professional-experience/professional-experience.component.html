@@ -1,0 +1,14 @@
+<div *ngFor="let item of professionalExperience; index as i">
+  <b>{{ item.fromTo }}</b>
+  <br/>
+  <b>{{ company }}:</b> {{ item.company }}
+  <br/>
+  <b>{{ position }}:</b> {{ item.position }}
+  <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;{{ item.abstract }}
+  <br/>
+  <div *ngFor="let highLight of item.highLights; index as x">
+    {{ highLight }}
+  </div>
+  <br/>
+</div>

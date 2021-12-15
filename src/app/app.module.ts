@@ -12,17 +12,21 @@ import * as components from './components';
   ],
   declarations: [
     AppComponent,
+    components.EducationComponent,
     components.FooterComponent,
     components.GistComponent,
     components.HeaderComponent,
+    components.KeyPointsComponent,
     components.KnowledgeBaseComponent,
     components.NavigationComponent,
+    components.ProfessionalExperienceComponent,
     components.ProfileComponent,
     components.ProjectsComponent,
     components.RepositoryComponent,
+    components.ResumeComponent,
     components.ResumeDownloadComponent,
     pipes.GitHubGistDescriptionPipe,
-    pipes.GitHubRepositoryNamePipe,
+    pipes.GitHubRepositoryNamePipe
   ],
   imports: [
     AppRoutingModule,
