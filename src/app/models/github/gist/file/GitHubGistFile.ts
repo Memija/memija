@@ -7,5 +7,5 @@ export class GitHubGistFile {
   /**
    * File.
    */
-  file: GitHubGistFileData;
+  file!: GitHubGistFileData;
 }

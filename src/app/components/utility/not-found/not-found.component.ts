@@ -15,7 +15,7 @@ export class NotFoundComponent implements OnInit {
   /**
    * Not found message.
    */
-  public notFoundMessage: string;
+  public notFoundMessage!: string;
 
   constructor() { }
 

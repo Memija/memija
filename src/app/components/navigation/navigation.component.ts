@@ -16,32 +16,32 @@ export class NavigationComponent implements OnInit {
   /**
    * Home route name.
    */
-  public homeRouteName: string;
+  public homeRouteName!: string;
 
   /**
    * Home route value.
    */
-  public homeRouteValue: string;
+  public homeRouteValue!: string;
 
   /**
    * Knowledge base route name.
    */
-  public knowledgeBaseRouteName: string;
+  public knowledgeBaseRouteName!: string;
 
   /**
    * Knowledge base route value.
    */
-  public knowledgeBaseRouteValue: string;
+  public knowledgeBaseRouteValue!: string;
 
   /**
    * Projects route name.
    */
-  public projectsRouteName: string;
+  public projectsRouteName!: string;
 
   /**
    * Projects route value.
    */
-  public projectsRouteValue: string;
+  public projectsRouteValue!: string;
 
   constructor() { }
 

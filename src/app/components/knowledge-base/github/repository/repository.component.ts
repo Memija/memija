@@ -17,27 +17,27 @@ export class RepositoryComponent implements OnInit {
   /**
    * Error message.
    */
-  public errorMessage: string;
+  public errorMessage!: string;
 
   /**
    * GitHub gists or error.
    */
-  public gitHubRepositories: GitHubRepository[] | Error;
+  public gitHubRepositories!: GitHubRepository[] | Error;
 
   /**
    * No description available placeholder.
    */
-  public noDescriptionAvailablePlaceholder: string;
+  public noDescriptionAvailablePlaceholder!: string;
 
   /**
    * Search placeholder.
    */
-   public searchPlaceholder: string;
+   public searchPlaceholder!: string;
 
   /**
    * Search term.
    */
-  public searchTerm: string;
+  public searchTerm!: string;
 
   constructor(private gitHubService: GitHubService) { }
 

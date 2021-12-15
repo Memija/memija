@@ -1,29 +1,29 @@
 /**
  * Professional experience.
  */
- export class ProfessionalExperience {
+export class ProfessionalExperience {
   /**
    * Start and end of professinal experince.
    */
-   fromTo: string;
+  fromTo!: string;
 
   /**
    * Name of the company.
    */
-   company: string;
+  company!: string;
 
   /**
    * Position.
    */
-   position: string;
+  position!: string;
 
   /**
    * Abstract.
    */
-   abstract: string;
+  abstract!: string;
 
   /**
    * HighLights.
    */
-   highLights: string[];
+  highLights!: string[];
 }

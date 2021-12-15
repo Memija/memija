@@ -17,6 +17,8 @@ export class GitHubGistDescriptionPipe implements PipeTransform {
   transform(value: GitHubGist[], arg?: string): GitHubGist[] {
     if (value) {
       return arg ? value.filter((gitHubGist) => gitHubGist.description.toLowerCase().includes(arg.toLowerCase())) : value;
+    } else {
+      return value;
     }
   }
 }

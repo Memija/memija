@@ -10,7 +10,7 @@ export class KeyPointsComponent implements OnInit {
   /**
    * Key points.
    */
-  public keyPoints: Array<String>;
+  public keyPoints!: Array<String>;
 
   constructor() { }
 

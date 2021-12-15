@@ -12,17 +12,17 @@ export class ResumeDownloadComponent implements OnInit {
   /**
    * File name.
    */
-  public fileName: string;
+  public fileName!: string;
 
   /**
    * Title.
    */
-  public title: string;
+  public title!: string;
 
   /**
    * URL (Uniform Resource Locator).
    */
-  public url: string;
+  public url!: string;
 
   constructor() { }
 

@@ -13,22 +13,22 @@ export class ProfileComponent implements OnInit {
   /**
    * Introduction.
    */
-  public introduction: string;
+  public introduction!: string;
 
   /**
    * LinkedIn link.
    */
-  public linkedInLink: string;
+  public linkedInLink!: string;
 
   /**
    * Profile photo.
    */
-  public profilePhoto: string;
+  public profilePhoto!: string;
 
   /**
    * Summary.
    */
-  public summary: string;
+  public summary!: string;
 
   constructor() { }
 

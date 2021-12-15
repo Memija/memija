@@ -9,17 +9,17 @@ export class ResumeComponent implements OnInit {
   /**
    * Education.
    */
-  public education: string;
+  public education!: string;
 
   /**
    * Key points.
    */
-  public keyPoints: string;
+  public keyPoints!: string;
 
   /**
    * Professional experince.
    */
-  public professionalExperince: string;
+  public professionalExperince!: string;
 
   constructor() { }
 

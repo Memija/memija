@@ -5,25 +5,25 @@ export class Education {
   /**
    * Start and end of education.
    */
-   fromTo: string;
+  fromTo!: string;
 
   /**
    * Name of the university.
    */
-   university: string;
+  university!: string;
 
   /**
    * Degree.
    */
-   degree: string;
+  degree!: string;
 
   /**
    * ECTS (European Credit Transfer System).
    */
-   ects: number;
+  ects!: number;
 
   /**
    * Abstract.
    */
-   abstract: string;
+  abstract!: string;
 }

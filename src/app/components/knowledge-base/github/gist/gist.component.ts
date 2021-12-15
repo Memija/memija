@@ -17,22 +17,22 @@ export class GistComponent implements OnInit {
   /**
    * Error message.
    */
-  public errorMessage: string;
+  public errorMessage!: string;
 
   /**
    * GitHub gists or error.
    */
-  public gitHubGists: GitHubGist[] | Error;
+  public gitHubGists!: GitHubGist[] | Error;
 
   /**
    * Search placeholder.
    */
-   public searchPlaceholder: string;
+   public searchPlaceholder!: string;
 
   /**
    * Search term.
    */
-  public searchTerm: string;
+  public searchTerm!: string;
 
   constructor(private gitHubService: GitHubService) { }
 

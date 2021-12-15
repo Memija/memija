@@ -11,17 +11,17 @@ export class ProfessionalExperienceComponent implements OnInit {
   /**
    * Company.
    */
-  public company: string;
+  public company!: string;
 
   /**
    * Position.
    */
-  public position: string;
+  public position!: string;
 
   /**
    * Professional experience.
    */
-   public professionalExperience: Array<ProfessionalExperience>;
+   public professionalExperience!: Array<ProfessionalExperience>;
 
   constructor() { }
 

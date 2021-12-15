@@ -17,6 +17,8 @@ export class GitHubRepositoryNamePipe implements PipeTransform {
   transform(value: GitHubRepository[], arg?: string): GitHubRepository[] {
     if (value) {
       return arg ? value.filter((gitHubRepository) => gitHubRepository.name.toLowerCase().includes(arg.toLowerCase())) : value;
+    } else {
+      return value;
     }
   }
 }

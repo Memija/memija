@@ -5,25 +5,25 @@ export class GitHubGistFileData {
   /**
    * Filename.
    */
-  filename: string;
+  filename!: string;
 
   /**
    * Type.
    */
-  type: string;
+  type!: string;
 
   /**
    * Language.
    */
-  language: string;
+  language!: string;
 
   /**
    * Raw URL (Uniform Resource Locator).
    */
-  raw_url: string;
+  raw_url!: string;
 
   /**
    * Size.
    */
-  size: number;
+  size!: number;
 }

@@ -11,22 +11,22 @@ export class EducationComponent implements OnInit {
   /**
    * Degree.
    */
-  public degree: string;
+  public degree!: string;
 
   /**
    * ECTS (European Credit Transfer System).
    */
-  public ects: string;
+  public ects!: string;
 
   /**
    * Education.
    */
-   public education: Array<Education>;
+   public education!: Array<Education>;
 
   /**
    * Name of the university.
    */
-   public university: string;
+   public university!: string;
 
   constructor() { }
 

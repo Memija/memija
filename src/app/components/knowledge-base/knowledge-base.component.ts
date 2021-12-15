@@ -15,22 +15,22 @@ export class KnowledgeBaseComponent implements OnInit {
   /**
    * Gists.
    */
-  public gists: string;
+  public gists!: string;
 
   /**
    * Repositories.
    */
-  public repositories: string;
+  public repositories!: string;
 
   /**
    * Declares should GitHub gists be shown or not.
    */
-  public shouldGistsBeShown: boolean;
+  public shouldGistsBeShown!: boolean;
 
   /**
    * Declares should GitHub repositories be shown or not.
    */
-  public shouldRepositoriesBeShown: boolean;
+  public shouldRepositoriesBeShown!: boolean;
 
   constructor() { }
 

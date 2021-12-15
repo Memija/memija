@@ -17,37 +17,37 @@ export class HeaderComponent implements OnInit {
   /**
    * Application logo.
    */
-  public logo: string;
+  public logo!: string;
 
   /**
    * Application name.
    */
-  public name: string;
+  public name!: string;
 
   /**
    * Application slogan.
    */
-  public slogan: string;
+  public slogan!: string;
 
   /**
    * English language marker.
    */
-  public englishLanguage: string;
+  public englishLanguage!: string;
 
   /**
    * German language marker.
    */
-   public germanLanguage: string;
+   public germanLanguage!: string;
 
   /**
    * Declares if English language is selected or not.
    */
-  public isEnglishLanguageSelected: boolean;
+  public isEnglishLanguageSelected!: boolean;
 
   /**
    * Declares if German language is selected or not.
    */
-  public isGermanLanguageSelected: boolean;
+  public isGermanLanguageSelected!: boolean;
 
   constructor() { }
 

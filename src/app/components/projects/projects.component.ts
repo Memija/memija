@@ -12,12 +12,12 @@ export class ProjectsComponent implements OnInit {
   /**
    * Memija Typography project title.
    */
-  public memijaTypographyTitle: string;
+  public memijaTypographyTitle!: string;
 
   /**
    * Memija Typography project URL (Uniform Resource Locator).
    */
-  public memijaTypographyURL: string;
+  public memijaTypographyURL!: string;
 
   constructor() { }
 
