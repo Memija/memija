@@ -16,3 +16,8 @@ Support for German language has been added.
 ## Version 1.2.0
 
 Resume has been added.
+
+## Version 1.2.2
+
+Dependencies have been updated.
+Development dependencies have been updated.
