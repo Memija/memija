@@ -9,7 +9,7 @@ import { languages } from './languages';
    * Get active languge value.
    * @returns Active languge value.
    */
-  static getActiveLanguageValue(): String {
+  static getActiveLanguageValue(): string {
     return this.getActiveLanguage();
   }
 

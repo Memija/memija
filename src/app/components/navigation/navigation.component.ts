@@ -43,8 +43,6 @@ export class NavigationComponent implements OnInit {
    */
   public projectsRouteValue!: string;
 
-  constructor() { }
-
   ngOnInit(): void {
     this.homeRouteName = language.route.name.home;
     this.homeRouteValue = configuration.route.value.home;

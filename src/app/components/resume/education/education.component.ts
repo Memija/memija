@@ -28,8 +28,6 @@ export class EducationComponent implements OnInit {
    */
    public university!: string;
 
-  constructor() { }
-
   ngOnInit() {
     this.degree = language.resume.educationSetup.degree;
     this.ects = language.resume.educationSetup.ects;

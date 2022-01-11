@@ -23,8 +23,6 @@ export class ProfessionalExperienceComponent implements OnInit {
    */
    public professionalExperience!: Array<ProfessionalExperience>;
 
-  constructor() { }
-
   ngOnInit() {
     this.company = language.resume.professionalExperienceSetup.company;
     this.position = language.resume.professionalExperienceSetup.position;

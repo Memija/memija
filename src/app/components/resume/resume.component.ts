@@ -21,8 +21,6 @@ export class ResumeComponent implements OnInit {
    */
   public professionalExperince!: string;
 
-  constructor() { }
-
   ngOnInit() {
     this.education = language.resume.headers.education.toUpperCase();
     this.keyPoints = language.resume.headers.keyPoints.toUpperCase();

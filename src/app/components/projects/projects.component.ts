@@ -19,8 +19,6 @@ export class ProjectsComponent implements OnInit {
    */
   public memijaTypographyURL!: string;
 
-  constructor() { }
-
   ngOnInit() {
     this.memijaTypographyTitle = configuration.projects.memijaTypography.title;
     this.memijaTypographyURL = configuration.projects.memijaTypography.url;

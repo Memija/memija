@@ -30,8 +30,6 @@ export class ProfileComponent implements OnInit {
    */
   public summary!: string;
 
-  constructor() { }
-
   ngOnInit() {
     this.introduction = language.profile.introduction;
     this.linkedInLink = configuration.linkedIn.profile;

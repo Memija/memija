@@ -17,8 +17,6 @@ export class NotFoundComponent implements OnInit {
    */
   public notFoundMessage!: string;
 
-  constructor() { }
-
   ngOnInit(): void {
     this.notFoundMessage = language.notFoundMessage;
   }

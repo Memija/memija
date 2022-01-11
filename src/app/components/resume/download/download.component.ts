@@ -24,8 +24,6 @@ export class ResumeDownloadComponent implements OnInit {
    */
   public url!: string;
 
-  constructor() { }
-
   ngOnInit() {
     this.fileName = language.resume.download.fileName;
     this.title = language.resume.download.title;

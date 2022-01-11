@@ -10,9 +10,7 @@ export class KeyPointsComponent implements OnInit {
   /**
    * Key points.
    */
-  public keyPoints!: Array<String>;
-
-  constructor() { }
+  public keyPoints!: Array<string>;
 
   ngOnInit() {
     this.keyPoints = language.resume.keyPoints;

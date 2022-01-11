@@ -49,8 +49,6 @@ export class HeaderComponent implements OnInit {
    */
   public isGermanLanguageSelected!: boolean;
 
-  constructor() { }
-
   ngOnInit(): void {
     this.logo = '../../../../assets/images/logo/memija.png';
     this.name = configuration.brand.name;

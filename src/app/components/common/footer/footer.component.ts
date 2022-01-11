@@ -33,8 +33,6 @@ export class FooterComponent implements OnInit {
    */
   public year!: number;
 
-  constructor() { }
-
   ngOnInit(): void {
     this.email = configuration.contact.email;
     this.name = configuration.brand.name;
