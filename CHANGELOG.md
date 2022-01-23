@@ -25,3 +25,8 @@ Development dependencies have been updated.
 ## Version 1.2.3
 
 Sonar issues have been resolved.
+
+## Version 1.2.5
+
+Dependencies have been updated.
+Development dependencies have been updated.
