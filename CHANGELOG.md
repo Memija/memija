@@ -30,3 +30,7 @@ Sonar issues have been resolved.
 
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.6
+
+Design related issues have been resolved.
