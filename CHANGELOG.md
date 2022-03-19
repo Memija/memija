@@ -34,3 +34,9 @@ Development dependencies have been updated.
 ## Version 1.2.6
 
 Design related issues have been resolved.
+
+## Version 1.2.9
+
+Dependencies have been updated.
+Development dependencies have been updated.
+Header component style has been updated.
