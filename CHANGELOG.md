@@ -40,3 +40,8 @@ Design related issues have been resolved.
 Dependencies have been updated.
 Development dependencies have been updated.
 Header component style has been updated.
+
+## Version 1.2.11
+
+Dependencies have been updated.
+Development dependencies have been updated.
