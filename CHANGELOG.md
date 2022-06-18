@@ -45,3 +45,9 @@ Header component style has been updated.
 
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.14
+
+Resume has been updated.
+Dependencies have been updated.
+Development dependencies have been updated.

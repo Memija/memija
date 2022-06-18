@@ -53,6 +53,7 @@ export const germanLanguage = {
       'Erfahrung u.a. in den Programmiersprachen C#, Java, PHP und TypeScript.',
       'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
       'Hat in Gesprächen etwas über Heroku, Kafka, Microsoft Azure und OpenShift-Plattformen gehört.',
+      'DevOps-Praktiker.',
       'Bringt die Leute gerne zum Lachen.'
     ],
     professionalExperience: [
