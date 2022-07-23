@@ -51,3 +51,9 @@ Development dependencies have been updated.
 Resume has been updated.
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.17
+
+Resume has been updated.
+Dependencies have been updated.
+Development dependencies have been updated.
