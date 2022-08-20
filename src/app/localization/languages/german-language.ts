@@ -52,7 +52,7 @@ export const germanLanguage = {
       'Arbeitete als Scrum Master.',
       'Erfahrung u.a. in den Programmiersprachen C#, Java, PHP und TypeScript.',
       'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
-      'Hat in Gesprächen etwas über Heroku, Kafka, Microsoft Azure und OpenShift-Plattformen gehört.',
+      'Hat in Gesprächen etwas über Google Cloud Platform, Heroku, Kafka, Microsoft Azure und OpenShift-Plattformen gehört.',
       'DevOps-Praktiker.',
       'Bringt die Leute gerne zum Lachen.'
     ],

@@ -52,7 +52,7 @@ export const englishLanguage = {
       'Served as a Scrum Master.',
       'Experienced, among others, in C#, Java, PHP and TypeScript programming languages.',
       'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
-      'Overheard in conversation something regarding Heroku, Kafka, Microsoft Azure and OpenShift platforms.',
+      'Overheard in conversation something regarding Google Cloud Platform, Heroku, Kafka, Microsoft Azure and OpenShift platforms.',
       'DevOps practitioner.',
       'Likes to make people laugh.'
     ],
