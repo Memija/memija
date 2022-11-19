@@ -134,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "memija"
+  "defaultProject": "memija",
+  "cli": {
+    "analytics": false
+  }
 }
