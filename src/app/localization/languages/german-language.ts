@@ -50,9 +50,10 @@ export const germanLanguage = {
       'Diente sowohl als Teamtrainer als auch als Leiter.',
       'Erfahren im Umgang mit Kunden, die eine für beide Seiten vorteilhafte Geschäftsbeziehung aufbauen.',
       'Arbeitete als Scrum Master.',
-      'Erfahrung u.a. in den Programmiersprachen C#, Java, PHP und TypeScript.',
+      'Erfahrung u.a. in den Programmiersprachen C#, Java, JavaScript, PHP, SQL und TypeScript.',
       'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
-      'Hat in Gesprächen etwas über Google Cloud Platform, Heroku, Kafka, Microsoft Azure und OpenShift-Plattformen gehört.',
+      'Verwendet gerne YAML-Vorlagen, um die Bereitstellung der Infrastruktur zu automatisieren.',
+      'Hat in Gesprächen etwas über Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift und TeamCity-Plattformen gehört.',
       'DevOps-Praktiker.',
       'Bringt die Leute gerne zum Lachen.'
     ],

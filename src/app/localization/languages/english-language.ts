@@ -50,9 +50,10 @@ export const englishLanguage = {
       'Served as both team trainer and lead.',
       'Experienced with client handling that produces mutually beneficial business relationship.',
       'Served as a Scrum Master.',
-      'Experienced, among others, in C#, Java, PHP and TypeScript programming languages.',
+      'Experienced, among others, in C#, Java, JavaScript, PHP, SQL and TypeScript programming languages.',
       'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
-      'Overheard in conversation something regarding Google Cloud Platform, Heroku, Kafka, Microsoft Azure and OpenShift platforms.',
+      'Likes to use YAML templates to automate infrastructure deployments.',
+      'Overheard in conversation something regarding Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift and TeamCity platforms.',
       'DevOps practitioner.',
       'Likes to make people laugh.'
     ],
