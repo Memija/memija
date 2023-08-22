@@ -49,7 +49,7 @@ export const englishLanguage = {
       'Excellent team player who is always willing to share knowledge and give a helping hand.',
       'Served as both team trainer and lead.',
       'Experienced with client handling that produces mutually beneficial business relationship.',
-      'Served as a Scrum Master.',
+      'Served as a Scrum Master and Product Owner.',
       'Experienced, among others, in C#, Java, JavaScript, PHP, SQL and TypeScript programming languages.',
       'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
       'Likes to use YAML templates to automate infrastructure deployments.',

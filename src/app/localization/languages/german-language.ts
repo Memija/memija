@@ -49,7 +49,7 @@ export const germanLanguage = {
       'Ausgezeichneter Teamplayer, der immer bereit ist, sein Wissen zu teilen und zu helfen.',
       'Diente sowohl als Teamtrainer als auch als Leiter.',
       'Erfahren im Umgang mit Kunden, die eine für beide Seiten vorteilhafte Geschäftsbeziehung aufbauen.',
-      'Arbeitete als Scrum Master.',
+      'Arbeitete als Scrum Master und Product Owner.',
       'Erfahrung u.a. in den Programmiersprachen C#, Java, JavaScript, PHP, SQL und TypeScript.',
       'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
       'Verwendet gerne YAML-Vorlagen, um die Bereitstellung der Infrastruktur zu automatisieren.',
