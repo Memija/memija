@@ -64,7 +64,7 @@ export const germanLanguage = {
         fromTo: 'Mai 2020 – heute',
         highLights: [
           'Leitung der Bemühungen um die digitale Transformation innerhalb der Zelle "Financial Cockpits".',
-          'Schulung und Leitung von Entwicklungsteams.',
+          'Aufbau, Schulung und Leitung internationaler Entwicklungsteams.',
           'Verantwortlich für die technische Umsetzung und Leistung der Finanz- und Transaktionsübersicht.'
         ],
         position: 'Software Development Team Lead'

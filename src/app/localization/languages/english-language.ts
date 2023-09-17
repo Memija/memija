@@ -64,7 +64,7 @@ export const englishLanguage = {
         fromTo: 'May 2020 – present',
         highLights: [
           'Leading digital transformation effort within Financial Cockpits cell.',
-          'Training and leading development teams.',
+          'Creating, training and leading international development teams.',
           'Responsible for Finance and Transactions Overview technical implementation and performance.'
         ],
         position: 'Software Development Team Lead'

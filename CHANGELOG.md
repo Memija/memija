@@ -76,3 +76,9 @@ Resume has been updated.
 ## Version 1.2.24
 
 Resume has been updated.
+
+## Version 1.2.27
+
+Resume has been updated.
+Dependencies have been updated.
+Development dependencies have been updated.
