@@ -82,7 +82,7 @@ export const englishLanguage = {
         position: 'Senior Analyst'
       },
       {
-        abstract: 'Authority Partners is an IT industry leader in Bosnia and Herzegovina. Company specializes in development of custom tailored software solutions of the highest quality.',
+        abstract: 'Authority Partners is an IT industry leader in Bosnia and Herzegovina. Company specializes in development of custom-tailored software solutions of the highest quality.',
         company: 'Authority Partners',
         fromTo: 'April 2016 – August 2017',
         highLights: [

@@ -36,5 +36,5 @@ export const configuration = {
       projects: 'projects'
     }
   },
-  version: '1.2.27'
+  version: '1.2.30'
 };
