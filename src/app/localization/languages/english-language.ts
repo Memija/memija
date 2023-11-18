@@ -63,7 +63,7 @@ export const englishLanguage = {
         company: 'Commerzbank GmbH',
         fromTo: 'May 2020 – present',
         highLights: [
-          'Leading digital transformation effort within Financial Cockpits cell.',
+          'Lead digital transformation effort within Financial Cockpits cell.',
           'Creating, training and leading international development teams.',
           'Responsible for Finance and Transactions Overview technical implementation and performance.'
         ],

@@ -88,3 +88,9 @@ Development dependencies have been updated.
 Resume has been updated.
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.33
+
+Resume has been updated.
+Dependencies have been updated.
+Development dependencies have been updated.
