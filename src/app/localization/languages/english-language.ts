@@ -53,7 +53,7 @@ export const englishLanguage = {
       'Experienced, among others, in C#, Java, JavaScript, PHP, SQL and TypeScript programming languages.',
       'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
       'Likes to use YAML templates to automate infrastructure deployments.',
-      'Overheard in conversation something regarding Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift and TeamCity platforms.',
+      'Used Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift and TeamCity platforms.',
       'DevOps practitioner.',
       'Likes to make people laugh.'
     ],

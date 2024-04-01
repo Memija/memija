@@ -53,7 +53,7 @@ export const germanLanguage = {
       'Erfahrung u.a. in den Programmiersprachen C#, Java, JavaScript, PHP, SQL und TypeScript.',
       'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
       'Verwendet gerne YAML-Vorlagen, um die Bereitstellung der Infrastruktur zu automatisieren.',
-      'Hat in Gesprächen etwas über Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift und TeamCity-Plattformen gehört.',
+      'Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift und TeamCity-Plattformen genutzt.',
       'DevOps-Praktiker.',
       'Bringt die Leute gerne zum Lachen.'
     ],
