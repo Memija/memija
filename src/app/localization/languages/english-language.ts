@@ -65,7 +65,8 @@ export const englishLanguage = {
         highLights: [
           'Lead digital transformation effort within Financial Cockpits cell.',
           'Creating, training and leading international development teams.',
-          'Responsible for Finance and Transactions Overview technical implementation and performance.'
+          'Was responsible for Finance and Transactions Overview technical implementation and performance.',
+          'Leading technical implementation of Avatar project.'
         ],
         position: 'Software Development Team Lead'
       },

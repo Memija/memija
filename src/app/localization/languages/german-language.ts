@@ -65,7 +65,8 @@ export const germanLanguage = {
         highLights: [
           'Leitung der Bemühungen um die digitale Transformation innerhalb der Zelle "Financial Cockpits".',
           'Aufbau, Schulung und Leitung internationaler Entwicklungsteams.',
-          'Verantwortlich für die technische Umsetzung und Leistung der Finanz- und Transaktionsübersicht.'
+          'War  verantwortlich  für  die  technische  Umsetzung  und  Leistung  der  Finanz-  und Transaktionsübersicht.',
+          'Führen der technischen Umsetzung des Avatar-Projekts.'
         ],
         position: 'Software Development Team Lead'
       },
