@@ -52,7 +52,7 @@ export const englishLanguage = {
       'Served as a Scrum Master and Product Owner.',
       'Experienced, among others, in C#, Java, JavaScript, PHP, SQL and TypeScript programming languages.',
       'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
-      'Likes to use YAML templates and Teraform to automate infrastructure deployments.',
+      'Likes to use YAML templates and Terraform to automate infrastructure deployments.',
       'Used Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift and TeamCity platforms.',
       'DevOps practitioner.',
       'Likes to make people laugh.'
