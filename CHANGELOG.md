@@ -102,3 +102,7 @@ Resume has been updated.
 ## Version 1.2.35
 
 Resume has been updated.
+
+## Version 1.2.36
+
+Resume has been updated.

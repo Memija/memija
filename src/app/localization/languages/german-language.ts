@@ -52,7 +52,7 @@ export const germanLanguage = {
       'Arbeitete als Scrum Master und Product Owner.',
       'Erfahrung u.a. in den Programmiersprachen C#, Java, JavaScript, PHP, SQL und TypeScript.',
       'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
-      'Verwendet gerne YAML-Vorlagen, um die Bereitstellung der Infrastruktur zu automatisieren.',
+      'Verwendet gerne YAML-Vorlagen und Terraform, um die Bereitstellung der Infrastruktur zu automatisieren.',
       'Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift und TeamCity-Plattformen genutzt.',
       'DevOps-Praktiker.',
       'Bringt die Leute gerne zum Lachen.'
