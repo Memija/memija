@@ -49,13 +49,11 @@ export const englishLanguage = {
       'Excellent team player who is always willing to share knowledge and give a helping hand.',
       'Served as both team trainer and lead.',
       'Experienced with client handling that produces mutually beneficial business relationship.',
-      'Served as a Scrum Master and Product Owner.',
       'Experienced, among others, in C#, Java, JavaScript, PHP, SQL and TypeScript programming languages.',
       'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
-      'Likes to use YAML templates and Terraform to automate infrastructure deployments.',
+      'Likes to use Helm, Terraform and YAML to automate infrastructure deployments.',
       'Used Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift and TeamCity platforms.',
-      'DevOps practitioner.',
-      'Likes to make people laugh.'
+      'DevOps practitioner.'
     ],
     professionalExperience: [
       {
@@ -63,12 +61,14 @@ export const englishLanguage = {
         company: 'Commerzbank GmbH',
         fromTo: 'May 2020 – present',
         highLights: [
+          'Creating, training and leading international development teams.',
+          'Hired over a dozen of software engineers across multiple projects.',
           'Lead digital transformation effort within Financial Cockpits cell.',
           'Creating, training and leading international development teams.',
           'Was responsible for Finance and Transactions Overview technical implementation and performance.',
-          'Leading technical implementation of Avatar project.'
+          'Leading envisioning and technical implementation of Avatar project.'
         ],
-        position: 'Software Development Team Lead'
+        position: 'Principal Software Engineer'
       },
       {
         abstract: 'Avanade is a business technology solution and managed services provider with innovative insights and expertise in Microsoft technologies.',

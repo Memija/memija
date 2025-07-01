@@ -106,3 +106,19 @@ Resume has been updated.
 ## Version 1.2.36
 
 Resume has been updated.
+
+## Version 1.2.37
+
+Resume has been updated.
+
+## Version 1.2.38
+
+Resume has been updated.
+
+## Version 1.2.39
+
+Resume has been updated.
+
+## Version 1.2.40
+
+Resume has been updated.
