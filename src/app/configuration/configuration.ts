@@ -26,7 +26,7 @@ export const configuration = {
   projects: {
     memijaTypography: {
       title: 'Memija Typography',
-      url: 'https://memija-typography.herokuapp.com/'
+      url: 'https://memija.github.io/memija-typography/'
     }
   },
   route: {
