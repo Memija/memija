@@ -122,3 +122,7 @@ Resume has been updated.
 ## Version 1.2.40
 
 Resume has been updated.
+
+## Version 1.2.41
+
+Resume has been updated.

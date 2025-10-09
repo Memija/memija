@@ -10,7 +10,7 @@ export const germanLanguage = {
   },
   notFoundMessage: 'Ich frage mich, wohin dieser Weg führt',
   profile: {
-    introduction: 'Ich bin ein neugieriger Softwareentwickler, der es liebt, benutzerfreundliche und interessante Lösungen zu entwickeln, die Probleme lösen und das tägliche Leben verbessern.',
+    introduction: 'Principal Software Engineer mit über 10 Jahren Erfahrung in der Konzeption, Entwicklung und Bereitstellung von Unternehmenssoftwarelösungen. Nachweisliche Erfolge in der Leitung internationaler Teams, der Umsetzung von digitalen Transformationsinitiativen und dem Aufbau skalierbarer Systeme in den Bereichen Bankwesen, Beratung und Softwareentwicklung. Versiert sowohl in der praktischen Softwareentwicklung als auch in der technischen Führung, mit fundierter Expertise in modernen Entwicklungsframeworks, Cloud-Plattformen und DevOps-Praktiken.',
     summary: 'Meine Liebsten glücklich machen. Mich an den kleinen Dingen erfreuen. Optimistisch in die Zukunft blicken.'
   },
   resume: {
@@ -45,15 +45,10 @@ export const germanLanguage = {
       professionalExperince: 'Berufserfahrung'
     },
     keyPoints: [
-      'Software-Ingenieur, der gerne Probleme löst und die Erfahrungen der Menschen verbessert.',
-      'Ausgezeichneter Teamplayer, der immer bereit ist, sein Wissen zu teilen und zu helfen.',
-      'Diente sowohl als Teamtrainer als auch als Leiter.',
-      'Erfahren im Umgang mit Kunden, die eine für beide Seiten vorteilhafte Geschäftsbeziehung aufbauen.',
-      'Erfahrung u.a. in den Programmiersprachen C#, Java, JavaScript, PHP, SQL und TypeScript.',
-      'Verwendet u.a. Angular, ASP.NET, Laravel, React und Spring Boot.',
-      'Verwendet gerne YAML-Vorlagen und Terraform, um die Bereitstellung der Infrastruktur zu automatisieren',
-      'Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift und TeamCity-Plattformen genutzt.',
-      'DevOps-Praktiker.'
+      'Teambildung, Einstellung, Mentoring, Kundenbindung, funktionsübergreifende Zusammenarbeit',
+      'Entwicklung von Unternehmensanwendungen, Systemdesign, Leistungsoptimierung',
+      'Infrastrukturautomatisierung, CI/CD, Cloud-native Bereitstellungen',
+      'Digitale Transformation, Optimierung von Geschäftsprozessen'
     ],
     professionalExperience: [
       {

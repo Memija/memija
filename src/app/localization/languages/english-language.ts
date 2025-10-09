@@ -10,7 +10,7 @@ export const englishLanguage = {
   },
   notFoundMessage: 'I do wonder where this path leads',
   profile: {
-    introduction: 'I am a curious software engineer that loves creating user-friendly and interesting solutions that solve problems and better everyday living.',
+    introduction: 'Principal Software Engineer with 10+ years of experience designing, developing, and delivering enterprise software solutions. Proven track record in leading international teams, driving digital transformation initiatives, and building scalable systems across banking, consulting, and software development industries. Skilled in both hands-on engineering and technical leadership, with strong expertise in modern development frameworks, cloud platforms, and DevOps practices.',
     summary: 'Making my loved ones happy. Enjoying the small things. Being optimistic about the future.'
   },
   resume: {
@@ -45,15 +45,10 @@ export const englishLanguage = {
       professionalExperince: 'Professional experince'
     },
     keyPoints: [
-      'Software engineer that loves solving problems and improving human experience.',
-      'Excellent team player who is always willing to share knowledge and give a helping hand.',
-      'Served as both team trainer and lead.',
-      'Experienced with client handling that produces mutually beneficial business relationship.',
-      'Experienced, among others, in C#, Java, JavaScript, PHP, SQL and TypeScript programming languages.',
-      'Used, among others, Angular, ASP.NET, Laravel, React and Spring Boot.',
-      'Likes to use Helm, Terraform and YAML to automate infrastructure deployments.',
-      'Used Google Cloud, Heroku, Kafka, Microsoft Azure, OpenShift and TeamCity platforms.',
-      'DevOps practitioner.'
+      'Team building, hiring, mentoring, client engagement, cross-functional collaboration',
+      'Enterprise application development, system design, performance optimization',
+      'Infrastructure automation, CI/CD, cloud-native deployments',
+      'Digital transformation, business process optimization'
     ],
     professionalExperience: [
       {
