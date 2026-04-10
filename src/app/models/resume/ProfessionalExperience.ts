@@ -3,7 +3,7 @@
  */
 export class ProfessionalExperience {
   /**
-   * Start and end of professinal experince.
+   * Start and end of professional experience.
    */
   fromTo!: string;
 

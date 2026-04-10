@@ -42,7 +42,7 @@ export const germanLanguage = {
     headers: {
       education: 'Ausbildung',
       keyPoints: 'Wichtige punkte',
-      professionalExperince: 'Berufserfahrung'
+      professionalExperience: 'Berufserfahrung'
     },
     keyPoints: [
       'Teambildung, Einstellung, Mentoring, Kundenbindung, funktionsübergreifende Zusammenarbeit',
