@@ -17,13 +17,13 @@ export class ResumeComponent implements OnInit {
   public keyPoints!: string;
 
   /**
-   * Professional experince.
+   * Professional experience.
    */
-  public professionalExperince!: string;
+  public professionalExperience!: string;
 
   ngOnInit() {
     this.education = language.resume.headers.education.toUpperCase();
     this.keyPoints = language.resume.headers.keyPoints.toUpperCase();
-    this.professionalExperince = language.resume.headers.professionalExperince.toUpperCase();
+    this.professionalExperience = language.resume.headers.professionalExperience.toUpperCase();
   }
 }
