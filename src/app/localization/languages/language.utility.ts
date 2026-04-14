@@ -6,8 +6,8 @@ import { languages } from './languages';
  export class LanguageUtility {
 
   /**
-   * Get active languge value.
-   * @returns Active languge value.
+   * Get active language value.
+   * @returns Active language value.
    */
   static getActiveLanguageValue(): string {
     return this.getActiveLanguage();
@@ -33,7 +33,7 @@ import { languages } from './languages';
     const localStorageMarker = 'language';
     if (localStorage[localStorageMarker]) {
       return localStorage[localStorageMarker];
-    } else if (navigator.language === languages.germanStandards.deutchland ||
+    } else if (navigator.language === languages.germanStandards.deutschland ||
                navigator.language === languages.germanStandards.schweiz ||
                navigator.language === languages.germanStandards.österreich ||
                navigator.language === languages.germanStandards.luxemburg ||
