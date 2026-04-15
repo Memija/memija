@@ -18,7 +18,7 @@
  */
 
 /** IE9, IE10 and IE11 requires all of the following polyfills. **/
-/** IE10 and IE11 requires the following for the Reflect API (Application Programing Interface). */
+/** IE10 and IE11 requires the following for the Reflect API (Application Programming Interface). */
 /**
  * If the application will be indexed by Google Search, the following is required.
  * Googlebot uses a renderer based on Chrome 41.

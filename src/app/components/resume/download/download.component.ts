@@ -27,6 +27,6 @@ export class ResumeDownloadComponent implements OnInit {
   ngOnInit() {
     this.fileName = language.resume.download.fileName;
     this.title = language.resume.download.title;
-    this.url = configuration.language.activeLanguage === languages.german ? '../../../../assets/files/resume/deutch/Resume.pdf' : '../../../../assets/files/resume/english/Resume.pdf';
+    this.url = configuration.language.activeLanguage === languages.german ? '../../../../assets/files/resume/deutsche/Resume.pdf' : '../../../../assets/files/resume/english/Resume.pdf';
   }
 }
